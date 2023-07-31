@@ -28,7 +28,7 @@
 <body class="home-4 ">
 
     @include('layouts.menu')
-    
+
     @if (URL::current() == route('home'))
         @include('layouts.slider')
     @endif

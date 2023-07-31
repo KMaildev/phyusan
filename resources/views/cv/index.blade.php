@@ -1,106 +1,129 @@
 @extends('layouts.main')
+@section('title', 'Submit CV')
 @section('content')
-    <div class="cmt-page-title-row bg-base-dark cmt-bg cmt-bgimage-yes clearfix">
-        <div class="cmt-titlebar-wrapper-bg-layer cmt-bg-layer"></div>
+    <section class="breadcum-area breadcum-bg breadcum-bg2 section-padding"
+        style="background-image:url({{ asset('data/class_room/1.jpg') }});">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="cmt-page-title-row-inner">
-                        <div class="page-title-heading">
-                            <h2 class="title">
-                                Submit CV
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcum-title">
+                        <h2 class="page-title">Job Application</h2>
+                        <ul class="page-list">
+                            <li>
+                                <a href="{{ route('home') }}">
+                                    Home
+                                </a> /
+                                <span>Apply for your job</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="feature-area feature-5 pt-50">
+        <div class="container">
+            <div class="featrue-content-row">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-feature-box">
+                            <div class="icon-feature">
+                                <i class="fab fa-dribbble"></i>
+                            </div>
+                            <h2>
+                                Job Opportunities
                             </h2>
+                            <p style="text-align: justify">
+                                These agencies often have a wide network of employers and companies seeking international
+                                candidates. They can connect you with job openings that may not be easily accessible through
+                                other channels, increasing your chances of finding suitable employment.
+                            </p>
                         </div>
-                        <div class="breadcrumb-wrapper">
-                            <span>
-                                <a title="Homepage" href="{{ route('home') }}">Home</a>
-                            </span>
-                            <span>
-                                Submit CV
-                            </span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-feature-box">
+                            <div class="icon-feature">
+                                <i class="far fa-sun"></i>
+                            </div>
+                            <h2>
+                                Visa Assistance
+                            </h2>
+                            <p style="text-align: justify">
+                                Navigating the visa application process can be complex and time-consuming. An overseas
+                                employment agency can guide you through the visa application, ensuring that you have the
+                                necessary documents and meet the requirements.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="single-feature-box">
+                            <div class="icon-feature">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h2>
+                                Support Services
+                            </h2>
+                            <p style="text-align: justify">
+                                Some agencies offer additional support services, such as arranging accommodation,
+                                orientation programs, and ongoing support while you settle into your new job and country.
+                            </p>
+                            <br><br><br>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
 
-    <div class="site-main">
-        <section class="cmt-row about-section clearfix">
-            <div class="container">
-                <!-- row -->
-                <div class="row align-items-center">
-                    <div class="col-xl-6 col-md-12">
-                        <div class="inner-column" style="padding-right: 0px">
-                            <div class="sec-title">
-                                <span class="sub-title">
-                                    Apply for your job!
-                                </span>
-                                <h2>Submit <span class="color3">CV</span></h2>
-                                <div class="text">
-                                    When it comes to choosing an employment agency, there are several factors to consider.
-                                    Here are some reasons why you may choose us:
-                                </div>
-                            </div>
 
-                            <ul class="list-style-two">
-                                <li>
-                                    Expertise and Experience: We have a team of experienced professionals who specialize in
-                                    recruitment and talent acquisition. Our expertise allows us to understand the
-                                    intricacies of various industries and job markets, enabling us to find the best
-                                    candidates for your organization.
-                                </li>
-                                <li>
-                                    Time and Cost Savings: Recruiting and hiring can be time-consuming and expensive. As an
-                                    employment agency, we handle the entire process for you, from sourcing candidates to
-                                    conducting initial screenings and interviews. This saves you valuable time and resources
-                                    that can be better utilized for other core business activities.
-                                </li>
-                                <li>
-                                    Ongoing Support: Our relationship with you does not end once a candidate is hired. We
-                                    provide ongoing support to ensure a smooth transition and integration for the new
-                                    employee. Additionally, we offer post-placement follow-ups to address any concerns or
-                                    issues that may arise.
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-6" style="background-color: #3c98c0; padding: 20px;">
-                        <h2>Job <span class="color3">Application</span></h2>
-                        <p style="color: white">
-                            Please complete the form to apply for a position with us.
+    <section class="section-why section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="why-left-content section-title">
+                        <h4 class="s-title">
+                            Apply for your job!
+                        </h4>
+                        <h2>Submit CV</h2>
+                        <p style="text-align: justify; color: black;">
+                            To apply for the desired job, we recommend reading the job requirements carefuly then if you
+                            found yourself qualified for it, simply fill in the below form and click APPLY NOW.
                         </p>
-                        <div class="res-1199-pt-40">
+                        <br>
+                        <div class="contact-form">
                             <form autocomplete="off" method="POST" action="{{ route('cv.store') }}"
                                 enctype="multipart/form-data" id="create-form" novalidate="novalidate">
                                 @csrf
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="form-group">
-                                            <label style="color: white">Name*</label>
+                                            <label style="color: black">Name</label>
                                             <input type="text" name="name" class="form-control " value="">
                                         </div>
                                     </div>
 
                                     <div class="col-lg-6 col-md-6 col-sm-12">
                                         <div class="form-group">
-                                            <label style="color: white">Phone</label>
+                                            <label style="color: black">Phone</label>
                                             <input type="text" name="phone" class="form-control " value="">
                                         </div>
                                     </div>
 
-                                    <div class="col-lg-12 py-3">
+                                    <div class="col-lg-12">
                                         <div class="form-group">
-                                            <label style="color: white">Additional Note</label>
-                                            <textarea class="form-control" rows="5" name="additional_note"></textarea>
+                                            <label style="color: black">Additional Note</label>
+                                            <textarea class="form-control" rows="5" cols="2" name="additional_note" style="height: 100px;"></textarea>
                                         </div>
                                     </div>
 
                                     <div class="col-lg-12 py-3">
                                         <div class="form-group">
-                                            <label for="img" style="color: white">
+                                            <label for="img" style="color: black">
                                                 Select your CV to
                                                 upload
                                             </label>
@@ -110,12 +133,11 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-12 py-3">
-                                        <button
-                                            class="submit cmt-btn btn-default cmt-icon-btn-left cmt-btn-size-md cmt-btn-color-dark mt-5"
-                                            type="submit">
-                                            <i class="icon-right"></i>
-                                            <span>Submit Now</span>
+                                    <div class="col-md-12">
+                                        <button type="submit" name="submit" class="button-2">
+                                            <span>
+                                                Apply Now
+                                            </span>
                                         </button>
                                     </div>
                                 </div>
@@ -123,7 +145,55 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <div class="why-right-content">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-sm-6">
+                                <div class="single-wc-box box1">
+                                    <i class="fas fa-globe"></i>
+                                    <h2>
+                                        Experience
+                                    </h2>
+                                    <p style="text-align: justify">
+                                        Years of expertise in international recruitment, navigating complexities.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-6">
+                                <div class="single-wc-box different box2">
+                                    <i class="far fa-credit-card"></i>
+                                    <h2>
+                                        Skill Development
+                                    </h2>
+                                    <p>
+                                        Tailored programs to enhance employability.
+                                    </p>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-6">
+                                <div class="single-wc-box different box3">
+                                    <i class="fas fa-chart-line"></i>
+                                    <h2>
+                                        Candidate Support
+                                    </h2>
+                                    <p>Comprehensive assistance from start to finish.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-6">
+                                <div class="single-wc-box box4 ">
+                                    <i class="fas fa-vote-yea"></i>
+                                    <h2>
+                                        Streamlined Process
+                                    </h2>
+                                    <p>Hassle-free documentation and logistics.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 @endsection
