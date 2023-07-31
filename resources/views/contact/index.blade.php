@@ -3,7 +3,7 @@
 @section('content')
 
     <section class="breadcum-area breadcum-bg breadcum-bg2 section-padding"
-        style="background-image:url(assets/img/bg/contactbg.png);">
+        style="background-image:url({{ asset('data/4.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

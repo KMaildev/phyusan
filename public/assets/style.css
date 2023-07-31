@@ -512,7 +512,7 @@ img{
 	background-color: var(--main-color);
 	background-repeat: no-repeat;
 	position: relative;
-	z-index: 0;
+	/* z-index: 0; */
 }
 .breadcum-bg1{
 	background-image:url(assets/img/bg/breadcumbg1.png);
@@ -536,7 +536,7 @@ img{
 .breadcum-title ul li span {
 }
 .breadcum-area.breadcum-bg.section-padding {
-  padding: 140px 0;
+  padding: 200px 0;
   overflow: hidden;
 }
 .breadcum-page h2.title {
