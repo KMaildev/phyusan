@@ -1,0 +1,23 @@
+<section>
+    <div class="hero-area-4 hero-bg-3">
+        <div class="container ">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6 ">
+                    <div class="hero-content">
+                        <div class="section-title">
+                            <h4 class="s-title">Search Engine Optimization</h4>
+                            <h2>We Are The Best SEO Marketing Agency</h2>
+                        </div>
+                        <div class="hero-bottom-content">
+                            <h2>99.5% <span>Clients Satisfaction</span></h2>
+                            <h2>5 Years <span>Work Experience</span></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="hero-left-bg"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
