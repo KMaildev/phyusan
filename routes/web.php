@@ -21,4 +21,7 @@ Route::get('/statement', [AboutController::class, 'statement'])->name('statement
 Route::get('/why', [AboutController::class, 'why'])->name('why');
 Route::get('/team', [AboutController::class, 'team'])->name('team');
 
+Route::get('/school', [AboutController::class, 'school'])->name('school');
+
+
 

@@ -26,7 +26,7 @@
     <section class="section-why section-padding">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-8 col-md-8">
                     <div class="why-left-content section-title">
                         <h4 class="s-title">
                             Apply for your company!
@@ -284,8 +284,52 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6">
-                    
+                <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="services-item">
+                            <div class="icon">
+                                <i class="icofont-file-text"></i>
+                            </div>
+                            <h2><a href="javascript::void(0)">Global Network</a></h2>
+                            <p style="text-align: justify">
+                                Emphasize your extensive network of connections with employers and
+                                businesses worldwide, providing a wide range of job opportunities in various industries
+                                and
+                                locations.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12 col-md-12 py-3">
+                        <div class="services-item">
+                            <div class="icon">
+                                <i class="icofont-file-text"></i>
+                            </div>
+                            <h2><a href="javascript::void(0)">Success Stories </a></h2>
+                            <p style="text-align: justify">
+                                Share success stories and testimonials from satisfied
+                                clients
+                                and candidates, illustrating the positive outcomes of working with your agency.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-12 col-md-12 py-3">
+                        <div class="services-item">
+                            <div class="icon">
+                                <i class="icofont-file-text"></i>
+                            </div>
+                            <h2><a href="javascript::void(0)">Comprehensive Services</a></h2>
+                            <p style="text-align: justify">
+                                Offer a full suite of services, including pre-screening
+                                candidates,
+                                visa assistance, travel arrangements, and ongoing support for both the employee and
+                                employer.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -90,7 +90,7 @@
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('contact.index') }}">
+                                    <a href="{{ route('school') }}">
                                         TOKYO Japanese School
                                     </a>
                                 </li>
@@ -109,12 +109,6 @@
                                             </li>
                                         @endforeach
                                     </ul>
-                                </li>
-
-                                <li>
-                                    <a href="{{ route('contact.index') }}">
-                                        Update News
-                                    </a>
                                 </li>
 
 
@@ -156,7 +150,6 @@
 
 
 <div class="mobile-menu-area">
-
     <div class="off_canvars_overlay">
     </div>
     <div class="offcanvas_menu">
