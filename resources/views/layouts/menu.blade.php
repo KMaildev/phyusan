@@ -80,12 +80,6 @@
                                                 Professional Team
                                             </a>
                                         </li>
-
-                                        <li>
-                                            <a href="{{ asset('data/painghtetsan.pdf') }}" target="_blank">
-                                                Company Profile
-                                            </a>
-                                        </li>
                                     </ul>
                                 </li>
 
@@ -152,6 +146,7 @@
 <div class="mobile-menu-area">
     <div class="off_canvars_overlay">
     </div>
+
     <div class="offcanvas_menu">
         <div class="offcanvas_menu_wrapper">
             <div class="canvas_close">

@@ -158,14 +158,325 @@
                 </div>
                 <div class="col-lg-6 col-md-6 text-center">
                     <div class="h4-video-play-area">
-                        <h2>Check How we work together</h2>
-                        {{-- mfp-iframe  --}}
-                        <a href="#" class="h4-video-play-btn">
-                            <i class="fas fa-play" onclick="showFacebook()"></i>
-                        </a>
+                        <iframe width="560" height="270" src="https://www.youtube.com/embed/Ic_7K5Nk5gg"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <section class="section-feature" style="background-color: white; padding: 50px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 text-center">
+                    <div class="section-round-title">
+                        <h4>Why learning with TOKYO Japanese School is right for you?</h4>
+                        <center>
+                            <p style="font-size: 16px; color: black; text-align: justify;">
+                                Immerse in Japanese language and culture with expert instructors, tailored curriculum, and
+                                interactive learning. Join our transformative school for new opportunities and a richer
+                                experience of Japan.
+                            </p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/class_room/9.jpg') }}" alt=""
+                            style="width: 100%; height: 200px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/class_room/12.jpg') }}" alt=""
+                            style="width: 100%; height: 200px; background-size: center; object-fit: contain;">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/class_room/14.jpg') }}" alt=""
+                            style="width: 100%; height: 200px; background-size: center; object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section-feature" style="padding: 50px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 text-center">
+                    <div class="section-round-title">
+                        <h4>
+                            Study Japanese Language
+                        </h4>
+                        <center>
+                            <p style="font-size: 16px; color: black; text-align: justify;">
+                                Beginner to advanced students can learn to speak, read, and write Japanese in these courses
+                                and workshops.
+                                <br>
+                                you will get good social skill, team work skill , power of cultural understanding and
+                                experiences.
+                            </p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div
+                        style="box-shadow: rgba(247, 147, 28, 0.4) -5px 5px, rgba(247, 147, 28, 0.3) -10px 10px, rgba(247, 147, 28, 0.2) -15px 15px, rgba(247, 147, 28, 0.1) -20px 20px, rgba(247, 147, 28, 0.05) -25px 25px;">
+                        <img src="{{ asset('data/class_room/23.jpg') }}" alt=""
+                            style="width: 100%; height: 200px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div
+                        style="box-shadow: rgba(247, 147, 28, 0.4) 0px 5px, rgba(247, 147, 28, 0.3) 0px 10px, rgba(247, 147, 28, 0.2) 0px 15px, rgba(247, 147, 28, 0.1) 0px 20px, rgba(247, 147, 28, 0.05) 0px 25px;">
+                        <img src="{{ asset('data/class_room/24.jpg') }}" alt=""
+                            style="width: 100%; height: 200px; background-size: center; object-fit: contain;">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div
+                        style="box-shadow: rgba(247, 147, 28, 0.4) 5px 5px, rgba(247, 147, 28, 0.3) 10px 10px, rgba(247, 147, 28, 0.2) 15px 15px, rgba(247, 147, 28, 0.1) 20px 20px, rgba(247, 147, 28, 0.05) 25px 25px;">
+                        <img src="{{ asset('data/class_room/25.jpg') }}" alt=""
+                            style="width: 100%; height: 200px; background-size: center; object-fit: contain;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section-feature" style="background-color: white; padding: 50px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 text-center">
+                    <div class="section-round-title">
+                        <h4>
+                            Nursing care
+                        </h4>
+                        <center>
+                            <p style="font-size: 16px; color: black; text-align: justify;">
+                                We teach Kaigo (Nursing care). They are all taught in the Japanese language (N5, N4, N3).
+                                Students are well-trained by experts.
+                            </p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/1.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/6.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/11.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-6 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/9.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-feature" style="padding: 50px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 text-center">
+                    <div class="section-round-title">
+                        <h4>
+                            Interview
+                        </h4>
+                        <center>
+                            <p style="font-size: 16px; color: black; text-align: justify;">
+                                Interviews
+                            </p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/interview/1.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/interview/2.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/interview/5.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/interview/01.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/interview/11.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-4 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/interview/07.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section-feature" style="background-color: white; padding: 50px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 text-center">
+                    <div class="section-round-title">
+                        <h4>
+                            Depature
+                        </h4>
+                        <center>
+                            <p style="font-size: 16px; color: black; text-align: center;">
+                                Next Step for the brighter future in japan.
+                            </p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/depature/11.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/depature/5.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/depature/6.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/depature/2.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="section-feature" style="padding: 50px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-8 offset-md-2 text-center">
+                    <div class="section-round-title">
+                        <center>
+                            <p style="font-size: 16px; color: black; text-align: justify;">
+                                TOKYO Japanese School is the best place to achieve the highest level of quality for humans
+                                by not just only studying , you will get good social skill, team work skill , power of
+                                cultural understanding and experiences.
+                            </p>
+                        </center>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/class_room/25.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                        <p style="padding: 10px;">
+                            Study Japanese Language
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/8.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                        <p style="padding: 10px;">
+                            Nursing Care Training
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/interview/5.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                        <p style="padding: 10px;">
+                            Interview section
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-3 py-5">
+                    <div style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;">
+                        <img src="{{ asset('data/depature/5.jpg') }}" alt=""
+                            style="width: 100%; height: 300px; background-size: center; object-fit: cover;">
+                        <p style="padding: 10px;">
+                            Depature
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 @endsection
