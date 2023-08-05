@@ -1,91 +1,74 @@
 @extends('layouts.main')
 @section('title', 'About of Our Company')
 @section('content')
-    <div class="cmt-page-title-row bg-base-dark cmt-bg cmt-bgimage-yes clearfix">
-        <div class="cmt-titlebar-wrapper-bg-layer cmt-bg-layer"></div>
+    <section class="breadcum-area breadcum-bg breadcum-bg2 section-padding"
+        style="background-image:url({{ asset('data/md.jpg') }});">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="cmt-page-title-row-inner">
-                        <div class="page-title-heading">
-                            <h2 class="title">
-                                President's Message
-                            </h2>
-                        </div>
-                        <div class="breadcrumb-wrapper">
-                            <span>
-                                <a title="Homepage" href="{{ route('home') }}">Home</a>
-                            </span>
-                            <span>
-                                President's Message
-                            </span>
-                        </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <div class="breadcum-title">
+                        <h2 class="page-title">
+                            President's Message
+                        </h2>
+                        <ul class="page-list">
+                            <li>
+                                <a href="{{ route('home') }}">
+                                    Home
+                                </a> /
+                                <span>
+                                    President's Message
+                                </span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <br>
-    <div class="section-full p-t120 p-b120 twm-explore-area bg-cover ">
+
+    <section class="section-who">
         <div class="container">
-            <div class="section-content">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3">
-                            <div class="team-block">
-                                <div class="team-thumb">
-                                    <img class="img-fullwidth" src="{{ asset('data/md.png') }}" alt=""
-                                        style="width: 100%;">
-                                </div>
-
-                                <div class="info">
-                                    <center>
-                                        <div class="pt-10 pb-10" style="background-color: #d96f2d">
-                                            <h4 class="mt-0 mb-0 text-white" style="font-size: 17px;">
-                                                U Kyaw Min Oo
-                                            </h4>
-                                            <h6 class="mt-0 mb-0 text-white" style="font-size: 15px;">
-                                                Managing Director
-                                            </h6>
-                                        </div>
-                                    </center>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="col-lg-8 col-md-12">
-                            <div class="twm-title-small">
-                                PAING HTET SAN RECRUITMENT CO., LTD
-                            </div>
-                            <h2>
-                                President's Message
-                            </h2>
-                            <p style="text-align: justify; font-size: 18px; color: black;">
-                                Dear Job Seekers,
-                                <br><br>
-                                Welcome to our overseas employment agency!
-                                <br><br>
-                                At our agency, our mission is clear - to connect talented individuals like you with
-                                international job opportunities. With our deep understanding of global markets, immigration
-                                laws, and visa processes, we can offer a wide range of employment options in various
-                                sectors.
-                                <br><br>
-                                Transparency, ethics, and open communication are at the heart of our values. We are
-                                dedicated to providing personalized guidance and support to each one of you. Our commitment
-                                to excellence ensures successful placements and long-term relationships with our clients.
-                                <br><br>
-                                Let's work together to make your dreams of working abroad a reality.
-                                <br><br>
-                                Best regards,
-                                <br>
-                                U Kyaw Min Oo
-                            </p>
-                        </div>
+            <div class="row ">
+                <div class="col-lg-3 col-md-3">
+                    <div class="who-bg">
+                        <img style="width: 100%;"
+                            src="https://img.freepik.com/premium-vector/face-cute-girl-avatar-young-girl-portrait-vector-flat-illustration_192760-82.jpg?w=2000"
+                            alt="">
+                        <p
+                            style="text-align: center; background-color: #F78E1B; color: white; padding: 10px; padding-top: 10px;">
+                            イ・イ・ピュー　( EI EI PHYU )
+                            <br>
+                            代表取締役 (CEO)
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-8 ">
+                    <div class="section-title">
+                        <h4 class="s-title">
+                            代表挨拶 (President's Message)
+                        </h4>
+                        <h2>
+                            ピューサン ( PHYU SAN CO.,LTD )
+                        </h2>
+                    </div>
+                    <div class="who-are-content">
+                        <p style="text-align: justify; font-size: 18px; color: black;">
+                            初めまして、私は Phyu San 送り出し機関代表 Ei Ei Phyu (イ・イ・ピュー)と申します。私は2003年 ミャンマーA.G.T.I Society
+                            学校にて電力科目で卒業し、その後日本へ留学として
+                            奈良にある白鳳女子短期大学にて国際人間学専攻を学んでました。そして2007年に大阪産業大学にて経済学科で卒業して2011年には帰国しました。2018年にPhyu San
+                            株式会社を設立し、2019年に送り出し機関認定許可をもらいました。技術が発展している日本を見習って成長する事を願い、ミャンマー人材送り出し機関としてPhyu San
+                            Co.,Ltdを設立しました。日本の労働人材不足問題で困ってる企業さんと優秀な日本語ができるミャンマーの若者達を架け橋の役割を果たすしたいと思っております 。そのため自社でTOKYO
+                            日本語学校を設置し、PHYU SAN 独自の日本語教育を行っております。日本語だけではなく私の日本での経験を生かして、生徒達に日本のマナー、礼儀正しい、仕事に対する考え方や
+                            時間を大切にする事や 熱心な気持ちなどを教育しおります。実習後ミャンマーに戻って来た生徒達を国の役に立つ仕事に繋げてあげたいと思っております。
+                            <br><br>
+                            Best regards,
+                            <br>
+                            EI EI PHYU
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 @endsection

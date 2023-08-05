@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Phyu San Co.,Ltd - @yield('title')</title>
-    <meta name="keywords" content="marketing, digital, shop, ecommerce" />
-    <meta name="description" content="Creative Marketing Agency & eCommerce HTML Template">
-    <link rel="icon" href="{{ asset('assets/img/icon.png') }}" type="image/gif" sizes="16x16">
-    <link rel="icon" href="{{ asset('assets/img/icon.png') }}" type="image/gif" sizes="18x18">
-    <link rel="icon" href="{{ asset('assets/img/icon.png') }}" type="image/gif" sizes="20x20">
+    <meta name="description" content="Phyu San, Phyu San Company, Agency, Japan, Japan Agency, Myanmar Agency">
+    <meta name="keywords" content="Phyu San, Phyu San Company, Agency, Japan, Japan Agency, Myanmar Agency" />
+    <meta property="og:title" content="Phyu San Co.,Ltd" />
+    <meta property="og:image" content="{{ asset('data/logo.jpg') }}" />
+    <meta property="og:url" content="http://www.phyusan.com/" />
+    <meta property="og:site_name" content="Phyu San Co.,Ltd" />
+    <link rel="icon" href="{{ asset('data/logo.jpg') }}" type="image/gif" sizes="16x16">
+
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/icofont.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}">
@@ -85,9 +88,7 @@
             });
         });
 
-        function showFacebook(){
-            alert(1)
-        }
+        function showFacebook() {}
     </script>
 </body>
 

@@ -9,17 +9,15 @@
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 offset-lg-2">
                 <div class="call-to-action-contnet">
-                    <h2>Subscribe Our Newsletter</h2>
-                    <p>Subscribe our newsletter for get more update & news</p>
+                    <h2>Keep in Touch</h2>
+                    <p>
+                        <a href="{{ route('contact.index') }}" style="color: white;">
+                            If you have any queries about recruitments, vacancies, or anything else, our team is ready
+                            to
+                            response all your queries.
+                        </a>
+                    </p>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-3 col-sm-12">
-                <form action="https://ordainit.com/azency/index1.html">
-                    <div class="subcrib-form">
-                        <input type="email" placeholder="Enter Your Email">
-                        <i class="fas fa-paper-plane"></i>
-                    </div>
-                </form>
             </div>
         </div>
     </div>
@@ -27,66 +25,25 @@
 
 
 <footer class="footer section-bg">
-
     <div class="footer-top pt-110">
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-3 col-md-6 mb-30">
-                    <div class="footer-widgets">
-                        <div class="logo">
-                            <a href="index1.html">
-                                <img src="{{ asset('assets/img/white-logo.png') }}" alt="logo">
-                            </a>
-                        </div>
-                        <p>Activate one page navigation on any page throughout your with the selection onesimple
-                            option in the admin area.</p>
-                        <div class="footer-social mt-30">
-                            <span><b>Share :</b></span>
-                            <span><a href="#"><i class="icofont-facebook"></i></a></span>
-                            <span><a href="#"><i class="icofont-dribbble"></i></a></span>
-                            <span><a href="#"><i class="icofont-skype"></i></a></span>
-                            <span><a href="#"><i class="fab fa-linkedin-in"></i></a></span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-30">
-                    <div class="footer-widgets quick-links">
-                        <h3>Quick Links</h3>
-                        <ul>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                            <li><a href="service-3.html">Services</a></li>
-                            <li><a href="comming-soon.html">Comming Soon</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="faqs.html">Faqs</a></li>
-                        </ul>
-                    </div>
-                </div>
 
                 <div class="col-lg-3 col-md-6 mb-30">
                     <div class="footer-widgets">
-                        <h3>Who can help!</h3>
-                        <ul>
-                            <li><a href="team.html">Leadership Team</a></li>
-                            <li><a href="pricingplan.html">Price & Planning</a></li>
-                            <li><a href="index1.html">Privacy & Condation</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                            <li><a href="about.html">About Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 mb-30">
-                    <div class="footer-widgets">
-                        <h3>Get In Touch</h3>
+                        <h3>
+                            お問い合わせ
+                        </h3>
                         <div class="footer-get-in">
                             <div class="single">
                                 <div class="icon">
                                     <i class="icofont-location-pin"></i>
                                 </div>
                                 <div class="con">
-                                    <p> New York, USA</p>
+                                    <p>
+                                        No.20 Aung Zay Ya Road, 14-Quarter, Yankin Township ,Yangon, Myanmar
+                                    </p>
                                 </div>
                             </div>
                             <div class="single">
@@ -94,8 +51,10 @@
                                     <i class="icofont-email"></i>
                                 </div>
                                 <div class="con">
-                                    <p> <a href="https://ordainit.com/cdn-cgi/l/email-protection" class="__cf_email__"
-                                            data-cfemail="422a272e2e2d73707102273a232f322e276c212d2f">[email&#160;protected]</a>
+                                    <p>
+                                        <a href="mailto:info@phyusan.com" style="color: white;">
+                                            info@phyusan.com
+                                        </a>
                                     </p>
                                 </div>
                             </div>
@@ -104,20 +63,95 @@
                                     <i class="icofont-ui-touch-phone"></i>
                                 </div>
                                 <div class="con">
-                                    <p> +1-3454-5678-77</p>
+                                    <p>
+                                        +95 9 44643 2352 (日本語対応)
+                                    </p>
                                 </div>
                             </div>
-                            <div class="form">
-                                <form action="https://ordainit.com/azency/index.html" method="post" id="contactForm"
-                                    name="contact-form">
-                                    <div class="form-group">
-                                        <label class="sr-only" for="email">Email</label>
-                                        <input type="email" name="email" class="form-control" id="email"
-                                            placeholder="Your Email">
-                                    </div>
-                                    <button type="submit"><i class="icofont-location-arrow"></i></button>
-                                </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-30">
+                    <div class="footer-widgets quick-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li>
+                                <a href="{{ route('about.index') }}">
+                                    Our Company
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('ceo_message') }}">
+                                    President's Message
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('team') }}">
+                                    Professional Team
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('cv.index') }}">
+                                    Job Application
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('employer.index') }}">
+                                    Employer Form
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="{{ route('contact.index') }}">
+                                    Contact Us
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-30">
+                    <div class="footer-widgets">
+                        <h3>
+                            Google Map
+                        </h3>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3818.3896997775923!2d96.21989505977172!3d16.856606235909258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1939081b88aa7%3A0x63f2c2765e776a96!2sPhyu%20San%20Co.%2CLtd!5e0!3m2!1sen!2smm!4v1691245887682!5m2!1sen!2smm"
+                            style="border:0; width: 100%; height: 250px;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-30">
+                    <div class="footer-widgets">
+                        <h3>
+                            Facebook
+                        </h3>
+                        <div class="footer-get-in">
+                            <div id="fb-root">
+                                <div class="fb-page"
+                                    data-href="https://www.facebook.com/Phyu-San-Co-Ltd-103956774320991/"
+                                    data-tabs="timeline" data-height="250" data-small-header="false"
+                                    data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                                </div>
                             </div>
+                            <script>
+                                (function(d, s, id) {
+                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                    if (d.getElementById(id)) return;
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src =
+                                        'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.1&appId=310515396183252&autoLogAppEvents=1';
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }(document, 'script', 'facebook-jssdk'));
+                            </script>
                         </div>
                     </div>
                 </div>
@@ -130,7 +164,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="copy-right-text">
-                        <p>Copyright <a href="index1.html">azency 2021.</a> All right reserved</p>
+                        <p>
+                            Phyu San Co.,Ltd. All rights reserved.
+                        </p>
                     </div>
                 </div>
             </div>

@@ -130,6 +130,9 @@
                                             <br>
                                             <input type="file" name="attachment_file" accept=".doc, .docx, .pdf"
                                                 class="form-control-file" required>
+                                            <a href="{{ asset('data/form.pdf') }}" download="">
+                                                Download Form
+                                            </a>
                                         </div>
                                     </div>
 
