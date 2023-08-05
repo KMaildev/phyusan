@@ -29,7 +29,7 @@ class CvController extends Controller
         $file_name = explode("/", $path);
         $file_name = $file_name[2];
         // $cv->path = 'http://localhost/projects/immortalfriends/storage/cv/' . $file_name ?? '';
-        $cv->attachment_file = 'https://www.shweyadanarphyo.com/storage/cv/' . $file_name ?? '';
+        $cv->attachment_file = 'https://www.website.phyusan.com/storage/cv/' . $file_name ?? '';
         $cv->save();
         return redirect()->back()->with('success', 'Thank you for your contact. our team is ready to response all your queries..');
     }
